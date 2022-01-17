@@ -1,3 +1,5 @@
+import random
+import os
 def cardGenerator():
     szamlista=["123456789"]
     betulista=["qwertzuioplkjhgfdsayxcvbnm"]
