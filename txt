@@ -1,0 +1,9 @@
+1
+2 Mind a kettő egy tolmács interpreter:gyorsabban tolmácsol de csak egy dolgot a compiler:lassan tolmácsol de több dolgot 
+3 for ciklusban és arra jó hogy a távolságát megadjuk
+4 for : akkor ha meg van adva meddig while: akkor ha nincs megadva meddig
+5 append
+6 lower
+7 Mind a kettő ugyan az 
+8 Hogy rá tudjunk valami hagyatkozni 
+9 Nem megy tovább a többi kódra meg áll és átfutja 
