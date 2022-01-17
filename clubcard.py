@@ -8,6 +8,7 @@ def cardGenerator():
 
 def gyartasGenerator():
     evlista=["1988,2001,2006,2010,2021,2022"]
+    random.choice(evlista)
     return gyartasGenerator
 
 pontszam=100
@@ -26,11 +27,13 @@ elif 2022 -3:
 def nevgenerator():    
     Vnevlista=["Kovadcs,Molnár,Kiss,Tóth,Nagy,Horváth,Szabó,Papp,Farkax"]
     Knevlista=["József,Sándor,Katalin,Béla,Bettina,Éva,Benedek,Péter,Erika"]
+    random.choice(Vnevlista,Knevlista)
     return nevgenerator
 
 def kiiras():
     os.system('cls')
     dbszam={}
     dbszam=input("Hány darab kártyát szeretnél létre hozni.")
+    random.choice(dbszam)
     return kiiras
 
