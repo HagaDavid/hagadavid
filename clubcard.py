@@ -30,11 +30,15 @@ def nevgenerator():
     random.choice(Vnevlista,Knevlista)
     return nevgenerator
 
-def kiiras():
+def db():
     os.system('cls')
     dbszam={}
     dbszam=input("Hány darab kártyát szeretnél létre hozni.")
     random.choice(dbszam)
-    return kiiras
+    return db
+
+def kiras():
+    for kulcs,ertek in range(19):
+        print(ertek)
 
 print("-----------------------------------------")
