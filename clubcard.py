@@ -3,6 +3,7 @@ import os
 def cardGenerator():
     szamlista=["123456789"]
     betulista=["qwertzuioplkjhgfdsayxcvbnm"]
+    random.choice(szamlista,betulista)
     return cardGenerator
 
 def gyartasGenerator():
@@ -26,3 +27,10 @@ def nevgenerator():
     Vnevlista=["Kovadcs,Molnár,Kiss,Tóth,Nagy,Horváth,Szabó,Papp,Farkax"]
     Knevlista=["József,Sándor,Katalin,Béla,Bettina,Éva,Benedek,Péter,Erika"]
     return nevgenerator
+
+def kiiras():
+    os.system('cls')
+    dbszam={}
+    dbszam=input("Hány darab kártyát szeretnél létre hozni.")
+    return kiiras
+
