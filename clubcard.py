@@ -21,5 +21,6 @@ elif 2022 -3:
     print(eredmeny)
 
 def nevgenerator():    
-    Vnevlista=["Kovadcs,Molnár,Kiss,Tóth,Nagy,Horváth,Szabó,Papp,Farkas"]
+    Vnevlista=["Kovadcs,Molnár,Kiss,Tóth,Nagy,Horváth,Szabó,Papp,Farkax"]
     Knevlista=["József,Sándor,Katalin,Béla,Bettina,Éva,Benedek,Péter,Erika"]
+    return nevgenerator
