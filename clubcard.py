@@ -9,15 +9,17 @@ def gyartasGenerator():
 
 pontszam=100
 eredmeny=("")
-ev=2005
+ev=2022
 if ev==1988 or ev==2001:
     100+150
     print(eredmeny)
-if 2006 or 2021 +100*2:
+if ev==2006 or ev==2021 +100*2:
     print(eredmeny)
-if 2022 and +200%80:
+if ev==2022 and +200%80:
     print(eredmeny)
-else: 2022 -3
-    
+elif 2022 -3:
+    print(eredmeny)
 
-
+def nevgenerator():    
+    Vnevlista=["Kovadcs,Molnár,Kiss,Tóth,Nagy,Horváth,Szabó,Papp,Farkas"]
+    Knevlista=["József,Sándor,Katalin,Béla,Bettina,Éva,Benedek,Péter,Erika"]
