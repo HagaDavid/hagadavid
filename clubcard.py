@@ -37,3 +37,4 @@ def kiiras():
     random.choice(dbszam)
     return kiiras
 
+print("-----------------------------------------")
